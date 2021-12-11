@@ -6,7 +6,7 @@
 
 ### A. Program
 
-![img] screenshot/2.png
+![Gambar 2](screenshot/2.png)
 
 ### B. Penjelasan
 
@@ -49,7 +49,7 @@ import math
 
 ### C. Output
 
-![img] screenshot/3.png
+![Gambar 3](screenshot/3.png)
 
 ## Tugas Pratikum
 
