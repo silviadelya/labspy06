@@ -49,7 +49,7 @@ import math
 
 ### C. Output
 
-![img] screenshot/
+![img] screenshot/3.png
 
 ## Tugas Pratikum
 
