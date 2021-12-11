@@ -2,7 +2,7 @@
 
 ## Latihan – Fungsi
 
-![img] screenshot/1.png
+![Gambar 1](screenshot/1.png)
 
 ### A. Program
 
