@@ -36,7 +36,7 @@ import math
         ```python
         # def c(*args):
         #   return sum(args)/len(args)
-        c = sum(args)/len(args)
+        c = lambda *args : sum(args)/len(args)
         print (c(5, 10, 25))
         ```
     * Mengubah posisi nilai yang diinputkan (tidak beraturan) 
@@ -78,90 +78,90 @@ import math
     print()
     ```
 
-3. Menampilkan atau melihat data (**lihat()**)
+3. Menampilkan atau melihat data ( **lihat()** )
     * Jika belum menginput data, maka akan memanggil fungsi `no_data()`.
 
-    ```python
-    def lihat():
-    if len(daftar) <= 0:
-        no_data()
-    else:
-        print("DAFTAR NILAI")
-        print("------------")
-        print(72*"=")
-        print("| {0:^10} | {1:^10} | {2:^6} | {3:^6} | {4:^6} |   {5:^12}  |".format("NIM", "NAMA", "TUGAS", "UTS", "UAS", "NILAI AKHIR"))
-        print(72*"=")
-        for z in daftar.items():
-            print(f"| {z[1][0]:>10} | {z[0]:>10} | {z[1][1]:>6} | {z[1][2]:>6} | {z[1][3]:>6} |   {z[1][4]:>12}  |") 
+        ```python
+        def lihat():
+        if len(daftar) <= 0:
+            no_data()
+        else:
+            print("DAFTAR NILAI")
+            print("------------")
             print(72*"=")
-        print()
-    ```
-    ### Output - lihat()
+            print("| {0:^10} | {1:^10} | {2:^6} | {3:^6} | {4:^6} |   {5:^12}  |".format("NIM", "NAMA", "TUGAS", "UTS", "UAS", "NILAI AKHIR"))
+            print(72*"=")
+            for z in daftar.items():
+                print(f"| {z[1][0]:>10} | {z[0]:>10} | {z[1][1]:>6} | {z[1][2]:>6} | {z[1][3]:>6} |   {z[1][4]:>12}  |") 
+                print(72*"=")
+            print()
+        ```
+    #### Output - lihat()
 
     ![img] screenshot
 
-4. Menambahkan data (**tambah()**)
+4. Menambahkan data ( **tambah()** )
     * Menginput nim, nama, nilai tugas, nilai uts dan nilai uas.
     * Data yang telah diinput tadi, akan ditambahkan ke dalam dictionary `daftar` dengan **nama** sebagai keys dan sisanya sebagai **values**.
 
-    ```python
-    def tambah():
-    print("TAMBAH DATA")
-    print("------------")
-    nama = input("Nama Mahasiswa\t: ")
-    nim = int(input("NIM Mahasiswa\t: "))
-    tugas = int(input("Nilai Tugas\t: "))
-    uts = int(input("Nilai UTS\t: "))
-    uas = int(input("Nilai UAS\t: "))
-    akhir = (tugas*30/100) + (uts*35/100) + (uas*35/100)
-    daftar[nama] = [nim, tugas, uts, uas, akhir]
-    print()
-    ```
-    ### Output - tambah()
+        ```python
+        def tambah():
+        print("TAMBAH DATA")
+        print("------------")
+        nama = input("Nama Mahasiswa\t: ")
+        nim = int(input("NIM Mahasiswa\t: "))
+        tugas = int(input("Nilai Tugas\t: "))
+        uts = int(input("Nilai UTS\t: "))
+        uas = int(input("Nilai UAS\t: "))
+        akhir = (tugas*30/100) + (uts*35/100) + (uas*35/100)
+        daftar[nama] = [nim, tugas, uts, uas, akhir]
+        print()
+        ```
+    #### Output - tambah()
 
     ![img] screenshot
 
-5. Mengubah data (**ubah()**)
+5. Mengubah data ( **ubah()** )
     * Menginput nama sebagai key.
     * Setelah menginput nama, input data yang ingin diubah. 
 
-    ```python
-    def ubah():
-    if len(daftar) <= 0:
-        no_data()
-    else :
-        print("UBAH DATA")
-        print("-----------")
-        nama = input("Nama Anda\t: ")
-        if nama in daftar.keys():
-            nim = int(input("NIM Mahasiswa\t: "))
-            tugas = int(input("Nilai Tugas\t: "))
-            uts = int(input("Nilai UTS\t: "))
-            uas = int(input("Nilai UAS\t: "))
-            akhir = (tugas*30/100) + (uts*35/100) + (uas*35/100)
-            daftar[nama] = [nim, tugas, uts, uas, akhir] 
-            print()
-    ```
-    ### Output - ubah()
+        ```python
+        def ubah():
+        if len(daftar) <= 0:
+            no_data()
+        else :
+            print("UBAH DATA")
+            print("-----------")
+            nama = input("Nama Anda\t: ")
+            if nama in daftar.keys():
+                nim = int(input("NIM Mahasiswa\t: "))
+                tugas = int(input("Nilai Tugas\t: "))
+                uts = int(input("Nilai UTS\t: "))
+                uas = int(input("Nilai UAS\t: "))
+                akhir = (tugas*30/100) + (uts*35/100) + (uas*35/100)
+                daftar[nama] = [nim, tugas, uts, uas, akhir] 
+                print()
+        ```
+    #### Output - ubah()
 
     ![img] screenshot
 
-6. Menghapus data (**hapus()**)
+6. Menghapus data ( **hapus()** )
     * Menginput nama sebagai key data yang ingin dihapus.
     * Setelah menginput nama, maka data yang lain akan ikut terhapus sesuai dengan nama yang diinput.
 
-    ```python
-    def hapus():
-    if len(daftar) <=0:
-        no_data()
-    else:
-        print("HAPUS DATA")
-        print("-----------")
-        nama = input("Nama Anda\t: ")
-        if nama in daftar.keys():
-            del daftar[nama]
-            print()
-    ```
+        ```python
+        def hapus():
+        if len(daftar) <=0:
+            no_data()
+        else:
+            print("HAPUS DATA")
+            print("-----------")
+            nama = input("Nama Anda\t: ")
+            if nama in daftar.keys():
+                del daftar[nama]
+                print()
+        ```
 
 6. Menggunakan perulangan uncountable, yang artinya selama statement bernilai **True** maka program akan terus berjalan. Jika statementnya **False** maka program terhenti.
 
