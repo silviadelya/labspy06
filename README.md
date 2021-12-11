@@ -53,7 +53,7 @@ import math
 
 ## Tugas Pratikum
 
-![img] screenshot/9.png
+![Gambar 4](screenshot/9.png)
 
 ### Penjelasan
 
@@ -96,7 +96,7 @@ import math
         ```
     #### Output - lihat()
 
-    ![img] screenshot/4.png
+    ![Gambar 5](screenshot/4.png)
 
 4. Menambahkan data ( **tambah()** )
     * Menginput nim, nama, nilai tugas, nilai uts dan nilai uas.
@@ -117,7 +117,7 @@ import math
         ```
     #### Output - tambah()
 
-    ![img] screenshot/5.png
+    ![Gambar 6](screenshot/5.png)
 
 5. Mengubah data ( **ubah()** )
     * Menginput nama sebagai key.
@@ -142,7 +142,7 @@ import math
         ```
     #### Output - ubah()
 
-    ![img] screenshot/6.png
+    ![Gambar 7](screenshot/6.png)
 
 6. Menghapus data ( **hapus()** )
     * Menginput nama sebagai key data yang ingin dihapus.
@@ -162,7 +162,7 @@ import math
         ```
     #### Output - hapus()
 
-    ![img] screenshot/7.png
+    ![Gambar 8](screenshot/7.png)
 
 6. Menggunakan perulangan uncountable, yang artinya selama statement bernilai **True** maka program akan terus berjalan. Jika statementnya **False** maka program terhenti.
 
