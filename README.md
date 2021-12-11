@@ -104,16 +104,16 @@ import math
 
         ```python
         def tambah():
-        print("TAMBAH DATA")
-        print("------------")
-        nama = input("Nama Mahasiswa\t: ")
-        nim = int(input("NIM Mahasiswa\t: "))
-        tugas = int(input("Nilai Tugas\t: "))
-        uts = int(input("Nilai UTS\t: "))
-        uas = int(input("Nilai UAS\t: "))
-        akhir = (tugas*30/100) + (uts*35/100) + (uas*35/100)
-        daftar[nama] = [nim, tugas, uts, uas, akhir]
-        print()
+            print("TAMBAH DATA")
+            print("------------")
+            nama = input("Nama Mahasiswa\t: ")
+            nim = int(input("NIM Mahasiswa\t: "))
+            tugas = int(input("Nilai Tugas\t: "))
+            uts = int(input("Nilai UTS\t: "))
+            uas = int(input("Nilai UAS\t: "))
+            akhir = (tugas*30/100) + (uts*35/100) + (uas*35/100)
+            daftar[nama] = [nim, tugas, uts, uas, akhir]
+            print()
         ```
     #### Output - tambah()
 
@@ -190,5 +190,5 @@ import math
             print("Program Selesai")
             Loop = False
     ```
-    
+
 ### Sekian Terimakasih
