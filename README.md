@@ -53,11 +53,9 @@ import math
 
 ## Tugas Pratikum
 
-### A. Program
+![img] screenshot/9.png
 
-![img] screenshot/
-
-### B. Penjelasan
+### Penjelasan
 
 1. Membuat dictionary kosong sebagai database.
 
@@ -98,7 +96,7 @@ import math
         ```
     #### Output - lihat()
 
-    ![img] screenshot
+    ![img] screenshot/4.png
 
 4. Menambahkan data ( **tambah()** )
     * Menginput nim, nama, nilai tugas, nilai uts dan nilai uas.
@@ -119,7 +117,7 @@ import math
         ```
     #### Output - tambah()
 
-    ![img] screenshot
+    ![img] screenshot/5.png
 
 5. Mengubah data ( **ubah()** )
     * Menginput nama sebagai key.
@@ -144,7 +142,7 @@ import math
         ```
     #### Output - ubah()
 
-    ![img] screenshot
+    ![img] screenshot/6.png
 
 6. Menghapus data ( **hapus()** )
     * Menginput nama sebagai key data yang ingin dihapus.
@@ -162,6 +160,9 @@ import math
                 del daftar[nama]
                 print()
         ```
+    #### Output - hapus()
+
+    ![img] screenshot/7.png
 
 6. Menggunakan perulangan uncountable, yang artinya selama statement bernilai **True** maka program akan terus berjalan. Jika statementnya **False** maka program terhenti.
 
