@@ -53,7 +53,7 @@ import math
 
 ## Tugas Pratikum
 
-![Gambar 4](screenshot/9.png)
+![img] screenshot/10.png
 
 ### Penjelasan
 
