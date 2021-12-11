@@ -96,7 +96,7 @@ import math
         ```
     #### Output - lihat()
 
-    ![Gambar 5](screenshot/4.png)
+    ![img] screenshot/5.png
 
 4. Menambahkan data ( **tambah()** )
     * Menginput nim, nama, nilai tugas, nilai uts dan nilai uas.
@@ -117,7 +117,7 @@ import math
         ```
     #### Output - tambah()
 
-    ![Gambar 6](screenshot/5.png)
+    ![img] screenshot/4.png
 
 5. Mengubah data ( **ubah()** )
     * Menginput nama sebagai key.
