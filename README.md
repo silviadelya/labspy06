@@ -1,6 +1,6 @@
-# Pratikum 6
+# Pratikum 6 - Fungsi
 
-## Latihan – Fungsi
+## Latihan Fungsi
 
 ![Gambar 1](screenshot/1.png)
 
