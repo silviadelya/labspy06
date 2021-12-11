@@ -53,7 +53,7 @@ import math
 
 ## Tugas Pratikum
 
-![img] screenshot/10.png
+![Gambar 4](screenshot/10.png)
 
 ### Penjelasan
 
@@ -66,14 +66,14 @@ import math
 
     ```python
     def no_data():
-    print("DAFTAR NILAI")
-    print("------------")
-    print(72*"=")
-    print("| {0:^10} | {1:^10} | {2:^6} | {3:^6} | {4:^6} |   {5:^12}  |".format("NIM", "NAMA", "TUGAS", "UTS", "UAS", "NILAI AKHIR"))
-    print(72*"=")
-    print("|                             TIDAK ADA DATA                           |")
-    print(72*"=")
-    print()
+        print("DAFTAR NILAI")
+        print("------------")
+        print(72*"=")
+        print("| {0:^10} | {1:^10} | {2:^6} | {3:^6} | {4:^6} |   {5:^12}  |".format("NIM", "NAMA", "TUGAS", "UTS", "UAS", "NILAI AKHIR"))
+        print(72*"=")
+        print("|                             TIDAK ADA DATA                           |")
+        print(72*"=")
+        print()
     ```
 
 3. Menampilkan atau melihat data ( **lihat()** )
@@ -96,7 +96,7 @@ import math
         ```
     #### Output - lihat()
 
-    ![img] screenshot/11.png
+    ![Gambar 5](screenshot/11.png)
 
 4. Menambahkan data ( **tambah()** )
     * Menginput nim, nama, nilai tugas, nilai uts dan nilai uas.
@@ -164,7 +164,7 @@ import math
 
     ![Gambar 8](screenshot/7.png)
 
-6. Menggunakan perulangan uncountable, yang artinya selama statement bernilai **True** maka program akan terus berjalan. Jika statementnya **False** maka program terhenti.
+7. Menggunakan perulangan uncountable, yang artinya selama statement bernilai **True** maka program akan terus berjalan. Jika statementnya **False** maka program terhenti.
 
     ```python
     Loop = True
@@ -190,4 +190,5 @@ import math
             print("Program Selesai")
             Loop = False
     ```
+    
 ### Sekian Terimakasih
