@@ -12,9 +12,9 @@
 
 1. Gunakan `import math` yang berfungsi agar program dapat menggunakan semua fungsi yang ada pada modul math. 
 
-```python
-import math
-```
+    ```python
+    import math
+    ```
 
 2. Menggunakan fungsi lambda :
 
@@ -81,18 +81,18 @@ import math
 
         ```python
         def lihat():
-        if len(daftar) <= 0:
-            no_data()
-        else:
-            print("DAFTAR NILAI")
-            print("------------")
-            print(72*"=")
-            print("| {0:^10} | {1:^10} | {2:^6} | {3:^6} | {4:^6} |   {5:^12}  |".format("NIM", "NAMA", "TUGAS", "UTS", "UAS", "NILAI AKHIR"))
-            print(72*"=")
-            for z in daftar.items():
-                print(f"| {z[1][0]:>10} | {z[0]:>10} | {z[1][1]:>6} | {z[1][2]:>6} | {z[1][3]:>6} |   {z[1][4]:>12}  |") 
+            if len(daftar) <= 0:
+                no_data()
+            else:
+                print("DAFTAR NILAI")
+                print("------------")
                 print(72*"=")
-            print()
+                print("| {0:^10} | {1:^10} | {2:^6} | {3:^6} | {4:^6} |   {5:^12}  |".format("NIM", "NAMA", "TUGAS", "UTS", "UAS", "NILAI AKHIR"))
+                print(72*"=")
+                for z in daftar.items():
+                    print(f"| {z[1][0]:>10} | {z[0]:>10} | {z[1][1]:>6} | {z[1][2]:>6} | {z[1][3]:>6} |   {z[1][4]:>12}  |") 
+                    print(72*"=")
+                print()
         ```
     #### Output - lihat()
 
@@ -125,20 +125,20 @@ import math
 
         ```python
         def ubah():
-        if len(daftar) <= 0:
-            no_data()
-        else :
-            print("UBAH DATA")
-            print("-----------")
-            nama = input("Nama Anda\t: ")
-            if nama in daftar.keys():
-                nim = int(input("NIM Mahasiswa\t: "))
-                tugas = int(input("Nilai Tugas\t: "))
-                uts = int(input("Nilai UTS\t: "))
-                uas = int(input("Nilai UAS\t: "))
-                akhir = (tugas*30/100) + (uts*35/100) + (uas*35/100)
-                daftar[nama] = [nim, tugas, uts, uas, akhir] 
-                print()
+            if len(daftar) <= 0:
+                no_data()
+            else :
+                print("UBAH DATA")
+                print("-----------")
+                nama = input("Nama Anda\t: ")
+                if nama in daftar.keys():
+                    nim = int(input("NIM Mahasiswa\t: "))
+                    tugas = int(input("Nilai Tugas\t: "))
+                    uts = int(input("Nilai UTS\t: "))
+                    uas = int(input("Nilai UAS\t: "))
+                    akhir = (tugas*30/100) + (uts*35/100) + (uas*35/100)
+                    daftar[nama] = [nim, tugas, uts, uas, akhir] 
+                    print()
         ```
     #### Output - ubah()
 
@@ -150,15 +150,15 @@ import math
 
         ```python
         def hapus():
-        if len(daftar) <=0:
-            no_data()
-        else:
-            print("HAPUS DATA")
-            print("-----------")
-            nama = input("Nama Anda\t: ")
-            if nama in daftar.keys():
-                del daftar[nama]
-                print()
+            if len(daftar) <=0:
+                no_data()
+            else:
+                print("HAPUS DATA")
+                print("-----------")
+                nama = input("Nama Anda\t: ")
+                if nama in daftar.keys():
+                    del daftar[nama]
+                    print()
         ```
     #### Output - hapus()
 
