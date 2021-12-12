@@ -6,7 +6,7 @@
 
 ### A. Program
 
-![img] screenshot/12.png
+![Gambar 2](screenshot/2.png)
 
 ### B. Penjelasan
 
