@@ -53,7 +53,7 @@
 
 ## Tugas Pratikum
 
-![Gambar 4](screenshot/10.png)
+![img] screenshot/12.png
 
 ### Penjelasan
 
